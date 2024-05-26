@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "/app/javascript/components",
+    "jsx": "react",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es5",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["**/*.spec.ts", "node_modules", "vendor", "public"],
+  "compileOnSave": false
+}
